@@ -10,17 +10,25 @@
 
 <body>
     <h1>Stone Paper Scissors </h1>
-
+    <div class="player-name-container">
+        <input type="text" id="player-name-input" placeholder="Enter your name">
+        <button id="start-game">Start Game</button>
+        <button id="reset-game">Reset Game</button>
+        <p id="player-name"></p>
+    </div>
+    <div id="main">
+        <p id="click-count">Total Clicks: 0</p>
+    </div>
     <div class="choices">
-        <div class="choice" id="rock">
+        <div class="choice" id="Rock">
             <img src="./Image/rock.png" alt="stone">
             <h2>Stone</h2>
         </div>
-        <div class="choice" id="paper">
+        <div class="choice" id="Paper">
             <img src="./Image/paper.png" alt="paper">
             <h2>Paper</h2>
         </div>
-        <div class="choice" id="scissors">
+        <div class="choice" id="Scissors">
             <img src="./Image/scissors.png" alt="scissors">
             <h2>Scissors</h2>
         </div>
